@@ -10,9 +10,11 @@ const Preview = ({ markdown }) => {
     return (
         <div
           id="preview"
+          role="region"
+          aria-label="Markdown preview"
           dangerouslySetInnerHTML={createMarkup()}
         />
     );
 };
 
-export default Preview
+export default Preview;
