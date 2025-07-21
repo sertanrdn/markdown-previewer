@@ -1,3 +1,5 @@
+import "./Editor.css";
+
 const Editor = ({ markdown, onChange }) => {
     return (
         <textarea
