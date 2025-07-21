@@ -1,0 +1,30 @@
+#preview {
+    width: 100%;
+    padding: 1rem;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    background: #fdfdfd;
+    box-sizing: border-box;
+    text-align: left;
+    overflow-y: auto;
+}
+  
+#preview h1, #preview h2 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3em;
+}
+  
+#preview code {
+    background: #eee;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+  
+#preview pre {
+    background: #333;
+    color: #f8f8f2;
+    padding: 1em;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+  

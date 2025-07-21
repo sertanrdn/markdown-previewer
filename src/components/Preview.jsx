@@ -1,5 +1,6 @@
 import { marked } from "marked";
 import DOMPurify from "dompurify";
+import "./Preview.css";
 
 const Preview = ({ markdown }) => {
     const createMarkup = () => {
